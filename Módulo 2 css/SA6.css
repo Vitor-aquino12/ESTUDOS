@@ -1,0 +1,17 @@
+#box{
+	background: blue;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+}
+#box2{
+	background: blue;
+	width: 200px;
+	height: 200px;
+	margin: auto auto auto auto;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}

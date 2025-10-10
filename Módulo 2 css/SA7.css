@@ -1,0 +1,12 @@
+body{
+	font-size: 30px;
+}
+#esp{
+	font-size: 2em;
+	font-family: Alan Sans;
+}
+.key{
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}

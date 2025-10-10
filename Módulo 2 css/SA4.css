@@ -1,0 +1,16 @@
+#box{
+	color: black solid;
+	background-color: white;
+	width: 150px;
+	height: 80px;
+	padding: 40px;
+	border: black solid 2px;
+	margin-left: 566px;
+	margin-top: 50px;
+}
+#ex{
+	width: 800px;
+	height: 400px;
+	margin: 10px;
+	background-color: blue;
+}

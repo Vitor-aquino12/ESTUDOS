@@ -1,0 +1,36 @@
+#x{
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 5% auto;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Sans-Serif;
+    padding: 10px 30px
+}
+html{
+    background: rgba(35, 35, 35, 0.1);
+}
+.button{
+    padding: 10px 20px;
+
+}
+#all{
+    max-width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 181, 192, 0.4);
+    border-radius: 16px;
+    margin: 5% auto;
+}
+.row button{
+    margin: 5px 7px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 1px rgba(255, 18,192, 0.5) solid;  ;
+    width: 80px;
+    height: 100px;
+    background-color: rgba(255, 181, 192, 0.5);;
+}

@@ -1,0 +1,28 @@
+.container{
+    display: inline-flex; 
+    background-color: #cdf6eb;
+    margin: 20px auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.container div{
+    background-color: black;
+    margin: 8px 4px;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    max-width: fit-content;
+}
+.containe{
+    display: flex; 
+    background-color: #cdf6eb;
+    margin: 20px auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.containe div{
+    background-color: black;
+    margin: 8px 4px;
+    font-size: 1em;
+    color: white;
+}
