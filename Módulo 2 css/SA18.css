@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    background: rgba(56, 56, 235, 0.466);
+    border-radius: 16px;
+    justify-content: center;
+    width: 15rem;
+    margin: .625rem auto;
+    height: 10rem; 
+    align-items: center;
+}
+.container div{
+    background-color: rgba(137, 43, 226, 0.37);
+    align-content: center;
+    margin: 0px .3125rem;
+    height: 30%;
+    border-radius: 1rem;
+    text-align: center;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.grow1{
+    flex-grow: 1;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.order4{
+    order: 4;
+}
+.order-1{
+    order: -1;
+}
