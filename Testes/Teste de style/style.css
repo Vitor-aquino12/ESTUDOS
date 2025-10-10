@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, #da2cae, #e63b3b);
+}
+#cadastro div{
+    display: flex;
+    background: rgba(255, 255, 255, 0.75);
+    margin: 1.25rem auto;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 50vh;
+    border-radius: 16px;
+
+}
+#formulario{
+    gap: 1rem;
+    padding: 20px;
+}
+h1{
+    color: #da2cae;
+    border: #da2caf50 solid;
+    border-radius: 16px;
+}
+.preencher{
+    border-radius: 5px;
+    border: #da2cafa6 solid;
+    background: linear-gradient(40deg, #da2caf40, #e63b3be3);
+    width: 60%;
+    height: 35vh;
+}
+#sub{  
+    background: linear-gradient(40deg, #da2caf40, #e63b3be3);
+    width: 25%;
+    height: 30vh;
+    border-radius: 5px;
+    border: #da2cafa6 solid;
+}
