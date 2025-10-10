@@ -1,0 +1,41 @@
+h4 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  background: aliceblue;
+  margin: 10px auto 30px;
+  max-width: 500px;
+  height: 300px;
+  flex-wrap: wrap;
+}
+.container div {
+  background-color: cornflowerblue;
+  color: white;
+  margin: 5px;
+  text-align: center;
+  width: 80px;
+  flex-wrap: wrap;
+}
+.stretch {
+  align-content: stretch;
+}
+.flex-start {
+  align-content: flex-start;
+}
+.flex-end {
+  align-content: flex-end;
+}
+.center{
+    align-content: center;
+}
+.space-b{
+  align-content: space-between;
+}
+.space-a {
+  align-content: space-around;
+}
