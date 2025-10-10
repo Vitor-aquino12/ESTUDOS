@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(90deg, #da2cae, #e63b3b);
+    background: linear-gradient(90deg, #2bff00a1, #1b0ed3);
 }
 #cadastro {
     display: flex;
@@ -35,14 +35,14 @@ h1{
 .preencher{
     border-radius: 5px;
     border: #da2cafa6 solid;
-    background: linear-gradient(40deg, #da2caf40, #e63b3be3);
+    background: linear-gradient(90deg, #2bff00a1, #1b0ed3);
     width: 60%;
-    height: 20vh;
+    height: 10vh;
 }
 #sub{  
-    background: linear-gradient(40deg, #da2caf40, #e63b3be3);
+    background: linear-gradient(90deg, #2bff00a1, #1b0ed3);
     width: 25%;
-    height: 20vh;
+    height: 10vh;
     border-radius: 5px;
     border: #da2cafa6 solid;
 }
