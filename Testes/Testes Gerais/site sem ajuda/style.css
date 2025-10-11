@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .navbar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.container .navbar button{
+    color: gray;
+
+}
+.container .navbar button:hover{
+    transform: scale(1.1);
+}
+
+.container .navbar .apps{
+    margin: 0px -2px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.navbar .left button{
+    margin: 20px 10px auto 20px;
+}
+.navbar .right{
+    margin-right: 100px;
+}
+.navbar .right button{
+    margin: 20px 7px;
+}
+.navbar button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.container .title .google{
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 180px;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.container .title div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g{
+color: rgb(66, 133, 244);
+}
+.e{
+    color: rgb(234, 67, 53);
+}
+.o2{
+    color: rgb(251, 188, 5);
+}
+.l{
+    color: rgb(52, 168, 83);
+}
+
+.container .title .search{
+    border: none;
+    box-shadow: 0 2px 6px rgba(0,0,0, 0.25);
+    width: 650px;
+    height: 50px;
+    outline: none;
+    padding: 0px 30px;
+    border-radius: 10px;
+}
+
+.container .title .BS{
+    flex-direction: row;
+    justify-content: center;
+    margin: 35px;
+}
+.container .title .BS button{
+    margin: 0px 8px;
+    border: none;
+    background: rgba(128, 128, 128, 0.295);
+    color: rgb(65, 64, 64);
+    padding: 10px;
+    border-radius: 5px;
+}
+.container .title .BS button:hover{
+    transform: scale(1.05);
+}
+
+.container .bottom{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.295);
+    padding: 5px;
+    width: 90%;
+    margin: 90px auto;
+    border-radius: 5px;
+}
+
+.container .bottom button{
+    padding: 5px 8px;
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+.container .bottom .left{
+    flex-direction: row;
+    margin: 0px auto 0px 30px;
+    padding: 0px ;
+    align-items: center;
+}
+
+.container .bottom .right{
+    align-items: center;
+    margin: 0px 30px 0px auto;
+}
+
+.container .bottom div{
+    background: none;
+}
+
+.container .bottom button:hover{
+    transform: scale(1.05);
+    background: rgba(128, 128, 128, 0.418);
+    border-radius: 5px;
+}

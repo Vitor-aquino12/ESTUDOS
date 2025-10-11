@@ -67,11 +67,6 @@ margin: 1.875rem 2.1875rem;
 .sel{
  background-color: gray;
 }
-h1, h2, p,{
-    display: flex;
-    justify-content: center;
-
-}
 
 .lets{
     display: flex;
