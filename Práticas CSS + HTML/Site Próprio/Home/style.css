@@ -29,10 +29,16 @@
     background: none;
     border: none;
     font-size: 1.0625rem;
+    transition: 1s;
 }
 
 .navbar .right button:hover{
     transform: scale(1.1);
+    
+}
+
+.navbar .right a:hover{
+    color: rgba(232, 80, 91, 1);
 }
 
 .navbar .right div{
@@ -75,7 +81,7 @@
 }
 
 .container .text .cabe{
-    padding-bottom: 1.5625rem;
+    padding-bottom: 1.5625rem;;
 }
 
 .container .text .texto{
@@ -96,8 +102,10 @@
     border-radius: .625rem;
     color: white;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .container .text button:hover{
     transform: scale(1.05);
+    background-color: rgb(167, 53, 61);
 }

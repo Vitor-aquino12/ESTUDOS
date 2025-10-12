@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgba(232, 80, 91, 1);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.container{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 60vh;
+    width: 50%;
+    margin-top: 10%;
+    align-items: center;
+    transition: 1s;
+    position: relative;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.left{ 
+    border-radius: 20px 0px 0px 20px;
+    justify-content: flex-start;
+    padding: 0px 0px px 10px;
+}
+
+.left .lform{
+    margin: 0px 0px 90px 60px;
+}
+
+.right{
+    border-radius: 0px 20px 20px 0px;
+    align-content: flex-end;
+}
+
+.container .right{
+    margin: 0px 60px 0px 0px;
+}
+
+.login, .singin{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login h1, input, button, p{
+    margin: 8px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    outline: none;
+}  
+
+.login, .singin{
+    align-items: center;
+}
+
+.login .P{
+    margin: 10px;
+}
+
+
+input{
+    background: rgba(232, 80, 91, 1);
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    width: 60%;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgba(133, 132, 132, 0.096);
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    width: fit-content;
+}
+
+a:hover{
+    color: rgba(232, 80, 91, 1);;
+}
+
+.overlay{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(232, 80, 91, 1);
+    z-index: 2;
+    transition: transform 1s ease;    
+    transform: translateX(0);
+}
+
+.overlay.mover{
+    transform: translateX(-100%);
+}
