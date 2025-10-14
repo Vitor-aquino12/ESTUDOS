@@ -1,184 +1,187 @@
-*{
-    box-sizing: border-box;
-    margin: 0rem;
-    padding: 0rem;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-body{
-background-color: rgb(40, 40, 40);
-max-width: 100%;
-max-height: 100%;
+body {
+  background-color: rgb(40, 40, 40);
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
 }
-.navbar .left{
-    display: flex;
-    align-items: center;
-    margin: 10px 20px;
+.navbar .left {
+  display: flex;
+  align-items: center;
+  margin: 0.625rem 1.25rem;
 }
-.navbar .left .logo{
-    width: 98px;
-    margin: 0px 15px;
-
-}
-
-.navbar .searchbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar .left .logo {
+  width: 6.125rem;
+  margin: 0px 0.9375rem;
 }
 
-.navbar .searchbar .search{
-    background-color: rgba(30, 30, 30, 1);
-    border: 1px rgba(255, 255, 255, 0.46) solid;
-    padding: 8px;
-    width: 470px;
-    border-radius: 6px 0px 0px 6px;
+.navbar .searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.navbar .searchbar .searchbtn{
-    background-color: rgb(145, 145, 145);
-    border: none;
-    width: 40px;
-    height: 32px;
-    border-radius: 0px 6px 6px 0px;
+.navbar .searchbar .search {
+  background-color: rgba(30, 30, 30, 1);
+  border: 0.0625rem rgba(255, 255, 255, 0.46) solid;
+  padding: 0.5rem;
+  width: 29.375rem;
+  border-radius: 6px 0px 0px 6px;
 }
 
-.navbar .searchbar .mic{
-    background-color: rgb(40, 40, 40);
-    border: none;
-    margin: 0px 0px 0px 10px;
-    padding-top: 2px;
-    transition: 1s;
+.navbar .searchbar .searchbtn {
+  background-color: rgb(145, 145, 145);
+  border: none;
+  width: 2.5rem;
+  height: 2rem;
+  border-radius: 0px 6px 6px 0px;
 }
 
-.navbar .searchbar .mic:hover{
-    transform: scale(1.2);
+.navbar .searchbar .mic {
+  background-color: rgb(40, 40, 40);
+  border: none;
+  margin: 0px 0px 0px 0.625rem;
+  padding-top: 0.125rem;
+  transition: 1s;
 }
 
-.navbar .right .logo{
-    width: 1.875rem;
+.navbar .searchbar .mic:hover {
+  transform: scale(1.2);
 }
 
-.navbar .right{
-    display: flex;
-    align-items: center;
-    margin: 0px 20px;
+.navbar .right .logo {
+  width: 1.875rem;
 }
 
-.navbar .right div{
-    margin: 8px;
-    transition: 1s;
+.navbar .right {
+  display: flex;
+  align-items: center;
+  margin: 0px 1.25rem;
 }
 
-.navbar .right div:hover{
-    transform: scale(1.2);
+.navbar .right div {
+  margin: 0.5rem;
+  transition: 1s;
 }
 
-
-
-
-
-.container{
-    display: flex;
-    justify-content: space-between;
+.navbar .right div:hover {
+  transform: scale(1.2);
 }
 
-.container .sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 300px;
-    margin: 0px 15px 15px 15px;
-    color: rgba(255, 255, 255, 0.903);
-    height: 35.0625rem;
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 92vh;
+  width: 100%;
 }
 
-.container .sidebar ul{
-    list-style: none;
+.container .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 16%;
+  margin: 0px 0.9375rem 0.9375rem 0.9375rem;
+  color: rgba(255, 255, 255, 0.903);
+  height: 100%;
 }
 
-.container .sidebar ul li{
-    display: flex;
-    margin: 10px 0px;
-    align-items: center;
-    align-items: center;
+.container .sidebar ul {
+  list-style: none;
 }
 
-
-.container .sidebar .uma3{
-    display: flex;
-    flex-direction: column;
+.container .sidebar ul li {
+  display: flex;
+  margin: 0.625rem 0px;
+  align-items: center;
 }
 
-.container .sidebar .ta7{
-    display: flex;
-    flex-direction: column;
-    border-top: 2px rgba(255, 255, 255, 0.5) solid;
-    margin: 15px 0px;
-    padding-top: 10px;
+.container .sidebar .uma3 {
+  display: flex;
+  flex-direction: column;
 }
 
-.container .sidebar .sa11{
-    display: flex;
-    flex-direction: column;
-    border-top: 2px rgba(255, 255, 255, 0.5) solid;
-    margin: ;;
-    padding-top: 5px;
+.container .sidebar .ta7 {
+  display: flex;
+  flex-direction: column;
+  border-top: 0.125rem rgba(255, 255, 255, 0.5) solid;
+  margin: 0.9375rem 0px;
+  padding-top: 0.625rem;
 }
 
-.container .content{
-    background-color: rgba(0, 0, 0, 0.359);
-    height: 35.0625rem;
+.container .sidebar .sa11 {
+  display: flex;
+  flex-direction: column;
+  border-top: 0.125rem rgba(255, 255, 255, 0.5) solid;
+  padding-top: 0.3125rem;
 }
 
-
-.container .content  .thumb{
-    width: 230px;
-    background-color: black;
+.container .content {
+  background-color: rgba(0, 0, 0, 0.359);
+  width: 84%;
+  height: 100%;
 }
 
-.container .table .logo{
-    width: 28px;
+.container .content .thumb {
+  width: 14.375rem;
+  background-color: black;
 }
 
-.container .sidebar .insc{
-    padding-bottom: 13px;
-    padding-left: 5px;
+.container .table .logo {
+  width: 1.75rem;
 }
 
-.container .sidebar .sidetitle{
-    margin-left: 15px;
+.container .sidebar .insc {
+  padding-bottom: 0.8125rem;
+  padding-left: 0.3125rem;
 }
 
-.container .sidebar .cinema{
-    padding: 0px;
+.container .sidebar .sidetitle {
+  margin-left: 0.9375rem;
 }
 
-.container .content{
-    align-items: center;
-    border-radius: 5px;
+.container .sidebar .cinema {
+  padding: 0px;
 }
 
-.container .content .table{
-    margin: 8px 23px;
-    display: flex;
+.container .content {
+  align-items: center;
+  border-radius: 5px;
 }
 
-.container .content .table tr td{
-    padding: 15px 0px;
+.container .content .table {
+  margin: 0.5rem 1.4375rem;
+  display: flex;
 }
 
-.container .table .sub{
-    color: rgba(255, 255, 255, 0.415);
+.container .content .table tr td {
+  display: flex;
+  padding: 0.9375rem 0px;
+  margin: 10px;
+  width: 14.375rem;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.container .table .title{
-    color: white;
+.container .content .table tr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.container .table .sub {
+  color: rgba(255, 255, 255, 0.415);
+}
+
+.container .table .title {
+  color: white;
 }
