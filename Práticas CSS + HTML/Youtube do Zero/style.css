@@ -169,9 +169,8 @@ height: 100%;
 .container .content .table td {
  
   display: flex;
-  padding: 0.9375rem 0px;
-  gap: .625rem;
-  margin: .625rem 1.25rem;
+  padding: 0px;
+  margin: 25px 1.25rem 0px;
   width: 14.375rem;
   flex-direction: column;
   justify-content: space-around;
@@ -184,7 +183,7 @@ height: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-around;
+
 }
 
 .container .table .sub {
