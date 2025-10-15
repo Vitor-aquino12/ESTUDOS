@@ -96,6 +96,8 @@ body {
 
 .container .sidebar ul {
   list-style: none;
+  border-collapse: collapse;
+  height: 100%;
 }
 
 .container .sidebar ul li {
@@ -155,20 +157,27 @@ body {
 .container .content {
   align-items: center;
   border-radius: 5px;
+  height: 100%;
 }
 
 .container .content .table {
-  margin: 0.5rem 1.4375rem;
-  display: flex;
+width: 100%;
+border-collapse: collapse;
+height: 100%;
 }
 
-.container .content .table tr td {
+.container .content .table td {
+ 
   display: flex;
   padding: 0.9375rem 0px;
-  margin: 10px;
+  gap: .625rem;
+  margin: .625rem 1.25rem;
   width: 14.375rem;
   flex-direction: column;
   justify-content: space-around;
+     width: 25%;
+     vertical-align: top;
+     height: 50%;
 }
 
 .container .content .table tr {
