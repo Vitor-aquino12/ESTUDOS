@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px rgba(128, 128, 128, 0.185) solid;
+    max-width: 20%;
+    min-height: 100vh;
+    padding: 30px 35px;
+}
+
+.sidebar .tlogo{
+    display: block;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.sidebar .sideopt{
+    display: flex;
+    margin-top: 15px;
+    max-height: 12.5%;
+    flex-direction: row;
+    margin-top: 28px;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 13px;
+}
+
+.sidebar .material-icons{
+    margin-right: 15px;
+}
+
+.sidebar .sideopt h2{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .tweetbtn{
+    margin-top: 40px;
+    background-color: aqua;
+    border: none;
+    padding: 20px 0px;
+    border-radius: 30px;
+    color: white;
+    margin-right: 25;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sidebar .tweetbtn:hover{
+    transform: scale(1.05);
+}
+
+.header{
+    max-height: fit-content;
+    max-width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px rgba(128, 128, 128, 0.185) solid ;
+}
+
+.feed .tweetbox{
+    display: flex;
+    height: 100%;
+    max-height: 20%;
+    max-width: 65%;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px rgba(128, 128, 128, 0.185) solid;
+}
+
+.feed .tweetbox div{
+    margin: 25px 35px;
+}
+
+.feed .tweetbox .profile{
+    display: block;
+    max-height: 100%;
+    max-width: 6%;
+}
+
+.feed .tweetbox .profile img{
+    display: block;
+    max-width: 100%;
+    height: ;
+
+}
+
+.feed .tweetbox .feedinp{
+    padding-top: 11px;
+    margin-left: -15px;
+}
+
+.feed .tweetbox .feedinp input{
+    border: none;
+    font-size: 18px;
+    outline: none;
+    color: rgb(83, 80, 80);
+}
+
+.feed .tweetbox .tweetbtn{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.feed .tweetbox button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 26px;
+    background-color: aqua;
+    color: white;
+    font-size: 9px;
+}
+
+.feed .post-1 .profile{
+    display: block;
+    max-height: 100%;
+    max-width: 6%;
+}
+
+.feed .post-1 .profile img{
+    display: block;
+    max-width: 100%;
+    height: ;
+
+}
